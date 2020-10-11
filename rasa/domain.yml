@@ -1,0 +1,33 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq
+- chitchat
+responses:
+  utter_faq/what_is_test_automation:
+  - text: test automation is the use of software separate from the software being
+      tested to control the execution of tests and the comparison of actual outcomes
+      with predicted outcomes.[1] Test automation can automate some repetitive but
+      necessary tasks in a formalized testing process already in place, or perform
+      additional testing that would be difficult to do manually. Test automation is
+      critical for continuous delivery and continuous testing.
+  utter_faq/different_types:
+  - text: 'There are many approaches to test automation, however below are the general
+      approaches used widely: - Graphical user interface testing. A testing framework
+      that generates user interface events such as keystrokes and mouse clicks, and
+      observes the changes that result in the user interface, to validate that the
+      observable behavior of the program is correct. - API driven testing. A testing
+      framework that uses a programming interface to the application to validate the
+      behaviour under test. Typically API driven testing bypasses application user
+      interface altogether. It can also be testing public (usually) interfaces to
+      classes, modules or libraries are tested with a variety of input arguments to
+      validate that the results that are returned are correct.'
+  utter_chitchat/ask_name:
+  - image: https://i.imgur.com/zTvA58i.jpeg
+    text: Hello, my name is Retrieval Bot.
+  - text: I am called Retrieval Bot!
+  utter_chitchat/ask_weather:
+  - image: https://i.imgur.com/vwv7aHN.png
+    text: Oh, it does look sunny right now in Berlin.
+  - text: I am not sure of the whole week but I can see the sun is out today.

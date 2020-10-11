@@ -1,0 +1,27 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/what_is_test_automation
+    examples: |
+      - What is test automation??
+      - How do you define test automation?
+      - what is the meaning of test automation?
+      - How to explain test automation?
+  - intent: faq/different_types
+    examples: |
+      - What are the different types of test automation
+      - What are main types of test automation?
+      - how many types of automation are there?
+  - intent: chitchat/ask_name
+    examples: |
+      - What is your name?
+      - May I know your name?
+      - What do people call you?
+      - Do you have a name for yourself?
+  - intent: chitchat/ask_weather
+    examples: |
+      - What's the weather like today?
+      - Does it look sunny outside today?
+      - Oh, do you mind checking the weather for me please?
+      - I like sunny days in Berlin.
+  
